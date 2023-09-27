@@ -1,0 +1,33 @@
+.header {
+  height: 95vh;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(rgb(2, 7, 2), 0.8),
+      rgba(orange, 0.8)
+    ),
+    url('https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2022/04/web-developer-portfolio.webp');
+  background-size: cover;
+  background-position: top;
+  position: relative;
+
+  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+
+  &__avatar__logo-container {
+    position: absolute;
+    top: 4rem;
+    left: 4rem;
+  }
+
+  &__avatar__logo {
+    height: 11rem;
+    border-radius: 50%;
+  }
+
+  &__text-box {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+}
