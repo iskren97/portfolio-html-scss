@@ -1,6 +1,11 @@
 .header {
   height: 95vh;
-  background-image: linear-gradient(to right bottom, #085078, #85d8ce);
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(8, 80, 120, 1),
+      rgba(133, 216, 206, 0.9)
+    ),
+    url('../images/header-img.jpg');
   background-size: cover;
   background-position: top;
   position: relative;
