@@ -193,10 +193,10 @@ body {
     outline-offset: 2rem; }
     .project-preview__photo--p1 {
       left: 0;
-      top: -2rem; }
+      top: -3rem; }
     .project-preview__photo--p2 {
       right: 0;
-      top: 20px; }
+      top: 5px; }
     .project-preview__photo--p3 {
       left: 20%;
       top: 10rem; }
