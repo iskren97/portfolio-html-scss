@@ -250,11 +250,17 @@ body {
   clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%); }
   .header__avatar__logo-container {
     position: absolute;
-    top: 4rem;
+    top: 6rem;
     left: 4rem; }
   .header__avatar__logo {
     height: 12rem;
-    border-radius: 50%; }
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 2.5rem 4rem rgba(0, 0, 0, 0.5);
+    transition: all 0.2s; }
+    .header__avatar__logo:hover {
+      outline: 1rem solid #85d8ce;
+      transform: scale(1.1) translateY(-2rem); }
   .header__heading--container {
     position: absolute;
     top: 40%;
