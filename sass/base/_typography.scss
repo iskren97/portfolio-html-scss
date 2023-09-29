@@ -68,6 +68,22 @@ body {
   text-transform: uppercase;
 }
 
+.heading-about {
+  color: $color-white;
+  font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: 1.5rem;
+  text-align: center;
+  text-transform: uppercase;
+  width: 20%;
+  margin: 0 auto;
+  background-image: linear-gradient(
+    to right,
+    $color-primary-light,
+    $color-primary-dark
+  );
+}
+
 .paragraph {
   font-size: 1.6rem;
 
